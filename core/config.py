@@ -18,5 +18,13 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 120
     REFRESH_TOKEN_EXPIRE_DAYS: int = 1
 
+    CORS_ORIGINS: str = "*"
+
+    def cors_list(self) -> list[str]:
+        v = (self.CORS_ORIGINS or "*").strip()
+        if v == "*":
+            return ["*"]
+        return [x.strip() for x in v.split(",") if x.strip()]
+
 
 settings = Settings()
