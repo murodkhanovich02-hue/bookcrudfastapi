@@ -1,0 +1,10 @@
+[2026-02-06 16:09:10,874] INFO | REFRESH SUCCESS | user_id=1 | username=sobir
+[2026-02-06 16:09:26,041] INFO | LOGIN SUCCESS | user_id=1 | username=sobir
+[2026-02-06 16:09:50,776] INFO | REGISTER SUCCESS | user_id=2 | username=ali
+[2026-02-06 16:11:21,658] WARNING | LOGIN FAILED | user_id=2 | username=ali | attempts=1
+[2026-02-06 16:11:23,044] WARNING | LOGIN FAILED | user_id=2 | username=ali | attempts=2
+[2026-02-06 16:11:23,973] WARNING | LOGIN FAILED | user_id=2 | username=ali | attempts=3
+[2026-02-06 16:11:23,973] ERROR | ACCOUNT BLOCKED | user_id=2 | username=ali | duration=60s
+[2026-02-06 16:11:24,856] WARNING | LOGIN BLOCKED | user_id=2 | username=ali | seconds_left=59
+[2026-02-06 16:11:36,194] WARNING | LOGIN BLOCKED | user_id=2 | username=ali | seconds_left=47
+[2026-02-06 16:13:29,557] INFO | LOGIN SUCCESS | user_id=2 | username=ali
