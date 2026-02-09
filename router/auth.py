@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 from core.logger import logger
 from core.jwt import create_access_token, create_refresh_token, decode_token
 from core.security import hash_password, verify_password
-from models.models import User
+from models.user import User
 from schemas.auth import RegisterModel, LoginModel, RefreshTokenModel
 from database.session import get_db
 
