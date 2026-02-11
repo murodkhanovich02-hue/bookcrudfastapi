@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from router.auth import auth_router
+from router.book import book_router
 from database.database import Base
 from database.session import engine
 from fastapi.middleware.cors import CORSMiddleware
@@ -21,6 +22,7 @@ app.add_middleware(
 
 
 app.include_router(auth_router)
+app.include_router(book_router)
 
 
 @app.get("/")

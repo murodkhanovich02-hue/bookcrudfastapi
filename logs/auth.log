@@ -8,3 +8,5 @@
 [2026-02-06 16:11:24,856] WARNING | LOGIN BLOCKED | user_id=2 | username=ali | seconds_left=59
 [2026-02-06 16:11:36,194] WARNING | LOGIN BLOCKED | user_id=2 | username=ali | seconds_left=47
 [2026-02-06 16:13:29,557] INFO | LOGIN SUCCESS | user_id=2 | username=ali
+[2026-02-11 10:25:45,016] INFO | REGISTER SUCCESS | user_id=3 | username=qwerty
+[2026-02-11 10:26:03,262] INFO | LOGIN SUCCESS | user_id=3 | username=qwerty
